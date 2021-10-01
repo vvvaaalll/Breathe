@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/changeDate"
+        android:title="Change date"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/deleteAccount"
+        android:title="Delete account"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/logOutMenu"
+        android:title="Log out"
+        app:showAsAction="never"/>
+</menu>

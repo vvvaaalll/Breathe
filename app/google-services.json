@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654988554847",
+    "project_id": "breathe-ad459",
+    "storage_bucket": "breathe-ad459.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654988554847:android:86831006ddb158405ca1ea",
+        "android_client_info": {
+          "package_name": "vloboda.myProject.breathe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654988554847-1p4kh1rav0rs95rid7k6dobvn5m4bl0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTL7AbCYLDvS5edZFmEPVcxkpMgaxIYcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654988554847-1p4kh1rav0rs95rid7k6dobvn5m4bl0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

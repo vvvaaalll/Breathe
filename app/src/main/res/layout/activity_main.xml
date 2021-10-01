@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context="vloboda.myProject.breathe.MainActivity">
+
+    <TextView
+        android:id="@+id/twsmokeFree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:text="Non-smoker for: "
+
+        />
+    <TextView
+        android:id="@+id/twSmokeFreeFor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/twsmokeFree"
+        android:layout_marginTop="45dp"
+        android:textSize="40sp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/twSmokeFreeFor"
+        android:layout_marginTop="60dp"
+        android:text="days"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/twMoney"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:textSize="20sp"
+        android:text="Money saved: "
+
+        />
+    <TextView
+        android:id="@+id/twMoneySaved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/twMoney"
+        android:layout_marginTop="130dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/twMoneySaved"
+        android:layout_marginTop="130dp"
+        android:text="HRK"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/twnotSmoked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        android:text="Cigaretts: "
+
+        />
+    <TextView
+        android:id="@+id/twCigarettsNotSmoked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/twnotSmoked"
+        android:layout_marginTop="200dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_toEndOf="@+id/twCigarettsNotSmoked"
+        android:textSize="20sp"
+        android:text="not smoked"
+
+        />
+
+
+    <ImageButton
+        android:id="@+id/IBhealth"
+        android:layout_width="170dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/heart_icon"
+
+
+        />
+    <TextView
+        android:id="@+id/motivation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="200dp"
+
+        />
+
+
+</RelativeLayout>
